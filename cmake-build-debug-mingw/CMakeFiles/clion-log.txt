@@ -1,0 +1,12 @@
+"D:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -DCMAKE_GNUtoMS:BOOL=ON -G Ninja -S D:\ClionProject\CmakeProjectClion -B D:\ClionProject\CmakeProjectClion\cmake-build-debug-mingw
+CMake Warning at D:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake:191 (message):
+  Disabling CMAKE_GNUtoMS option because CMAKE_GNUtoMS_VCVARS is not set.
+Call Stack (most recent call first):
+  D:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake:1 (__windows_compiler_gnu_abi)
+  D:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake:71 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/ClionProject/CmakeProjectClion/cmake-build-debug-mingw
